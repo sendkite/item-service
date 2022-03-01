@@ -41,7 +41,7 @@ public class MessageSourceTest {
 
     @Test
     void koMessage() {
-        String result = ms.getMessage("hello", null, Locale.ENGLISH);
+        String result = ms.getMessage("hello", null, Locale.KOREA);
         assertThat(result).isEqualTo("안녕");
     }
 }
